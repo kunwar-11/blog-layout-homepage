@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    background-color: rgb(36, 35, 35);
+    padding-right:  10rem;
+    padding-left: 10rem;
+    padding-top: 1rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__items{
+    display: flex;
+    list-style: none;
+}
+.nav__items > li {
+    padding-left: 1.5rem;
+    color: white;
+}
+.social__icons{
+    display: flex;
+    align-items: center;
+}
+.social__icons > button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+    color: white;
+}
+.social__icons > i{
+    color: white;
+    padding-right: 1rem;
+}
+.main__head{
+    text-align: center;
+    padding : 6rem 0rem 0rem 0rem;
+}
+.main__head > img{
+    width: 10rem;
+}
+.header__title > h3 {
+    color: whitesmoke;
+    text-align: center;
+    padding: 1rem 0rem 7rem;
+    font-weight: lighter;
+}
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 1.5rem;
+    padding: 2rem 15rem;
+}
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-text small,p,h2 {
+    padding: 0.5rem;
+}
+.main-text > p {
+    line-height: 2;
+    color: gray;
+    flex-grow: 2;
+}
+.main-text > small {
+    color: #6f85ff;
+    font-weight: normal;
+    padding-left: 0;
+}
+.main-text > h2 {
+    padding-left: 0;
+}
+.img > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.divider{
+    height: 0.5px;
+    background-color: lightgrey;
+    margin: 1rem 15rem;
+}
+footer {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 0;
+}
+footer > img {
+    width: 40px;
+    border-radius: 100%;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.5rem;
+}
+.footer > small {
+    padding: 2px;
+}
+.bloglist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+    padding: 2rem 15rem;
+}
+.blog__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.blog__card > h2,p {
+    padding-left: 0;
+    flex-grow: 1;
+}
+.blog__card > small {
+    color: #6f85ff;
+    padding: 1rem 0rem;
+}
+.blog__card > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.bestblog__card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+    padding: 2rem 15rem;
+}
+.bestblog__card > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
